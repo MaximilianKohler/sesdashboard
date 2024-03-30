@@ -34,6 +34,7 @@ Shared hosting installation
 ---------------------------
 
 * Download an app (download zip or git clone) to your web directory so your webserver should use /public/index.php
+* Rename or remove the `/public/.htaccess` file if you don't use Apache.
 * Copy ``.env`` file to ``.env.local``
 * Fill database parameters in ``.env.local`` with your MySQL credentials. [Make sure your serverVersion is correct](https://github.com/Nikeev/sesdashboard/issues/70#issuecomment-2027965022).
 * [Create MySQL database and user, and grant privilages](https://github.com/Nikeev/sesdashboard/issues/70#issuecomment-2027989022)
