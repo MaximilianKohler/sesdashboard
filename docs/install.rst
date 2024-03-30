@@ -30,7 +30,7 @@ $ make init
 
 * Go to http://your-ip/login or http://localhost/login
 
-Shared hosting installation
+Shared hosting or vhost installation
 ---------------------------
 
 * Download an app (download zip or git clone) to your web directory so your webserver should use /public/index.php
