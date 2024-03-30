@@ -35,7 +35,8 @@ Shared hosting installation
 
 * Download an app (download zip or git clone) to your web directory so your webserver should use /public/index.php
 * Copy ``.env`` file to ``.env.local``
-* Fill database parameters in ``.env.local`` with your MySQL credentials. [You may need to change](https://github.com/Nikeev/sesdashboard/issues/70#issuecomment-2027378098) `sesdashboard-mysql` to `localhost` or `127.0.0.1`. 
+* Fill database parameters in ``.env.local`` with your MySQL credentials. [Make sure your serverVersion is correct](https://github.com/Nikeev/sesdashboard/issues/70#issuecomment-2027965022).
+* [Create MySQL database and user, and grant privilages](https://github.com/Nikeev/sesdashboard/issues/70#issuecomment-2027989022)
 
 ::
 
